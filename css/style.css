@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+
+body{
+	
+	background-image: url("backgroundimage.jpg");
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow-y: auto;	
+}
+
+
+nav{
+width: 350px;
+height:auto;
+position: absolute;
+padding-top: 12%;
+left: 0;	
+}
+
+
+nav a{
+	text-decoration: none;
+	font-size: 28px;
+	font-weight: bold;
+	width: 100%;
+	height: 90px;
+	margin: 5px 0;
+	float: left;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	line-height: 90px;
+	text-align: center;
+	transition: 300ms;
+}
+
+a:hover {
+  background-color: #555;
+  color: red;
+}
+
+
+
+.content{
+	position: absolute;
+	width: 700px;
+	min-height: 750px;
+	/*background-color: red;*/
+	right: 5%;
+	top: 10%;	
+}
+
+.home{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: white;
+	font-family: verdana;	
+}
+
+.home h1{
+	font-size: 90px;
+	padding-right: 80px;
+	border-bottom: 1px solid white;
+	text-transform: uppercase;
+}
+
+
+.home h3{
+	font-size: 28px;
+	padding: 5px 0;
+	opacity: 0.6;
+}
+
+
+
+.aboutme{
+	position: absolute;
+	right: 0;
+	margin-left:  500px;
+	top: 10px;
+	color: white;
+	font-family: verdana;
+	padding: 0 60px;		
+}
+
+
+.aboutme p{
+	top: 200px;
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 15px;	
+}
+
+
+.contactme{
+	position: absolute;
+	right: -100px;
+	top: 150px;
+	color: white;
+	padding: 0 60px;	
+}
+
+.inputtext{
+	width: 55%;
+	height: 65px;
+	border: 3px solid black;
+	color: white;
+	background-color: rgba(0,0,0,0.7);
+	font-size: 20px;
+	padding: 0 10px;
+	float:left;
+	margin-bottom: 15px;	
+}
+
+
+.inputmessage{
+	width: 55%;
+	height: 135px;
+	border: 3px solid black;
+	color: white;
+	background-color: rgba(0,0,0,0.7);
+	font-size: 20px;
+	padding: 0 10px;
+	float:left;
+}
+
+.submitbutton{
+	width: 160px;
+	height: 65px;
+	font-family: arial;
+	background-color: white;
+	color: black;
+	font-size: 20px;
+	border: none;
+	font-weight: bold;
+	float: left;
+	clear: both;
+	margin-top: 25px;	
+}
+
+
+
+.gallerypage{
+	position: absolute;
+	right: 0;
+	top: 10px;
+	color: white;
+	padding: 0 60px;	
+}
+
+.gallerypage .image{
+	width: 10%;
+	margin: 2.5%;
+	float: right;	
+}
+
+
+.image img{
+	margin-top: 200%;
+	width: 150%;	
+}
